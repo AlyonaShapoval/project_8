@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 600px;
+
+    margin: auto;
+    margin-top: 50px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+ }
+ a{
+     text-decoration: none;
+     text-transform: uppercase;
+     color: rgb(167, 112, 29);
+     font-weight: bold;
+     font-size: 30px;
+ }
+ body{
+     background: url(../images/blue-background_3840x2400_szn00.jpg);
+    background-size: cover;
+
+
+    }

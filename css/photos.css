@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(45deg, #d299c2, #fef9d7);
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.block{
+    width: 1300px;
+   border: solid 2px black;
+   margin: auto;
+   margin-top: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   
+}
+.block-inner{
+    width: 400px;
+    min-height: 300px;
+    border: black 2px solid;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.first{
+    background: url(../images/rose_freedom.jpg);
+    background-size: cover;
+}
+.first:hover{
+ transform: translateX(10%);
+}
+.second{
+    background: url(../images/4vTF.gif);
+    background-size: cover;
+}
+.second:hover{
+    transform: scale(1.2);
+}
+.six{
+    background-size: cover;
+}
+.third{
+    background: url(../images/images.jfif);
+    background-size: cover;
+}
